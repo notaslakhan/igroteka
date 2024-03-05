@@ -32,5 +32,16 @@ body{
   font-size: 30px;
 }
 
+.menu__list {
+  list-style: none;
+  display: flex;
+  gap: 0 10px;
+}
+
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 
