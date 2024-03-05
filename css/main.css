@@ -41,7 +41,7 @@ body{
 .menu__list {
   list-style: none;
   display: flex;
-  gap: 0 10px;
+  gap: 0 50px;
   text-transform: lowercase;
 }
 
