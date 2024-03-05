@@ -57,12 +57,13 @@ body{
 /* MAIN, SLIDER STYLES */ 
 
 .games-slider {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .games-slider__covers{
   display: flex;
   justify-content: center;
+  margin-bottom: 18px;
 }
 
 .games-slider__img {
@@ -70,5 +71,21 @@ body{
   border-radius: 30px;
 }
 
+.games-slider__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+}
+
+.arrow-icon {
+  background-color: #fff;
+  width: 50px;
+  padding: 10px 16px;
+}
+
+.games-slider__btn-left, 
+.games-slider__btn-right {
+  cursor: pointer;
+}
 
 
