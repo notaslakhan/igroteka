@@ -8,7 +8,17 @@ html {
   font-family: "Unbounded", sans-serif;
 }
 
+body{
+  background-color: rgb(170, 0, 0);
+}
+
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
 }
