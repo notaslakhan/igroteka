@@ -9,7 +9,7 @@ html {
 }
 
 body{
-  background-color: rgb(170, 0, 0);
+  background-color: #111;
 }
 
 .container{
@@ -18,6 +18,11 @@ body{
 }
 
 /* HEADER */
+
+.header {
+  background-color: rgb(170, 0, 0);
+  padding: 16px 0;
+}
 
 .header__inner {
   display: flex;
