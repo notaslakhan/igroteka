@@ -20,7 +20,8 @@ body{
 /* HEADER */
 
 .header {
-  background-color: rgb(170, 0, 0);
+  /* background-color: rgb(170, 0, 0); */
+  background-color: #fff;
   padding: 16px 0;
 }
 
@@ -33,7 +34,7 @@ body{
 .logo {
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  color: #111;
   font-size: 30px;
 }
 
@@ -41,10 +42,11 @@ body{
   list-style: none;
   display: flex;
   gap: 0 10px;
+  text-transform: lowercase;
 }
 
 .menu__link {
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 
