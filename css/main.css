@@ -54,5 +54,21 @@ body{
   color: rgb(170, 0, 0);
 }
 
+/* MAIN, SLIDER STYLES */ 
+
+.games-slider {
+  padding-top: 50px;
+}
+
+.games-slider__covers{
+  display: flex;
+  justify-content: center;
+}
+
+.games-slider__img {
+  max-width: 950px;
+  border-radius: 30px;
+}
+
 
 
