@@ -17,8 +17,20 @@ body{
   margin: 0 auto;
 }
 
+/* HEADER */
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  font-size: 30px;
 }
+
+
+
