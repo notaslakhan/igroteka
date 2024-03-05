@@ -54,6 +54,11 @@ body{
   color: rgb(170, 0, 0);
 }
 
+.search-games {
+  padding: 10px;
+  outline: none;
+}
+
 /* MAIN, SLIDER STYLES */ 
 
 .games-slider {
