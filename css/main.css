@@ -113,24 +113,15 @@ body{
   background-color: #000;
 }
 
-.logos__slide {
+.logos {
   display: flex;
   align-items: center;
 }
 
-.alawar {
-  width: 200px;
-}
-
-.nival {
-  width: 300px;
-}
-
-.oovee {
-  width: 400px;
-}
-
+.alawar,
+.nival,
+.oovee,
 .perelesoq {
-  width: 480px;
-}
+  height: 200px;
+} 
 
