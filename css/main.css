@@ -9,7 +9,7 @@ html {
 }
 
 body{
-  background-color: #111;
+  background-color: #000;
 }
 
 .container{
@@ -93,4 +93,42 @@ body{
   cursor: pointer;
 }
 
+/* INFINITE LOGO ANIMATION STYLES */
+
+.ticker-section {
+  margin-top: 140px;
+}
+
+.ticker-statement {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 120px;
+}
+
+.ticker-section {
+  background-color: #000;
+}
+
+.logos__slide {
+  display: flex;
+  align-items: center;
+}
+
+.alawar {
+  width: 200px;
+}
+
+.nival {
+  width: 300px;
+}
+
+.oovee {
+  width: 400px;
+}
+
+.perelesoq {
+  width: 480px;
+}
 
