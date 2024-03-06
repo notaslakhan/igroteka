@@ -109,19 +109,39 @@ body{
   margin-bottom: 120px;
 }
 
+@keyframes game-studio-logos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .ticker-section {
   background-color: #000;
 }
 
 .logos {
   display: flex;
+  gap: 20px;
   align-items: center;
+  overflow: hidden;
+}
+
+.logos:hover .logos__slide {
+  animation-play-state: paused;
+}
+
+.logos__slide {
+  white-space: nowrap;
+  animation: 10s game-studio-logos infinite linear;
 }
 
 .alawar,
 .nival,
 .oovee,
 .perelesoq {
-  height: 200px;
+  height: 120px;
 } 
 
