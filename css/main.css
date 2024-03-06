@@ -2,6 +2,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -22,7 +24,7 @@ body{
 .header {
   /* background-color: rgb(170, 0, 0); */
   background-color: #fff;
-  padding: 16px 0;
+  padding: 24px 0;
 }
 
 .header__inner {
