@@ -99,6 +99,7 @@ body{
 
 .ticker-section {
   margin-top: 140px;
+  background-color: #000;
 }
 
 .ticker-statement {
@@ -107,6 +108,13 @@ body{
   text-transform: uppercase;
   font-size: 40px;
   margin-bottom: 120px;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  overflow: hidden;
 }
 
 @keyframes game-studio-logos {
@@ -118,24 +126,13 @@ body{
   }
 }
 
-.ticker-section {
-  background-color: #000;
-}
-
-.logos {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  overflow: hidden;
-}
-
 .logos:hover .logos__slide {
   animation-play-state: paused;
 }
 
 .logos__slide {
   white-space: nowrap;
-  animation: 10s game-studio-logos infinite linear;
+  animation: 20s game-studio-logos infinite linear;
 }
 
 .alawar,
@@ -145,6 +142,6 @@ body{
 .inkstains,
 .sovietgames,
 .perelesoq {
-  height: 80px;
+  height: 120px;
 } 
 
