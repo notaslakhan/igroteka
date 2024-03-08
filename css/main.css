@@ -110,29 +110,11 @@ body{
   margin-bottom: 120px;
 }
 
-.logos {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  overflow: hidden;
-}
-
-@keyframes game-studio-logos {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-
-.logos:hover .logos__slide {
-  animation-play-state: paused;
-}
-
 .logos__slide {
-  white-space: nowrap;
-  animation: 20s game-studio-logos infinite linear;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
 }
 
 .alawar,
