@@ -48,8 +48,30 @@ body{
 }
 
 .menu__link {
-  color: #111;
+  color: #565656;
   text-decoration: none;
+  position: relative;
+  padding: 0 10px;
+  transition: .3s;
+}
+
+.menu__link:hover {
+  color: #000;
+}
+
+.menu__link::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: .3s;
+}
+
+.menu__link:hover:after {
+  width: 100%;
 }
 
 .teka {
