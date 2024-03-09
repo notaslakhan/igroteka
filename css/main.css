@@ -86,7 +86,7 @@ body{
 .search-games {
   padding: 10px;
   outline: none;
-  width: 20rem;
+  width: 300px;
 }
 
 /* MAIN, SLIDER STYLES */ 
@@ -150,7 +150,7 @@ body{
   gap: 60px;
   align-items: center;
   animation-name: logo-slider;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
