@@ -137,11 +137,30 @@ body{
   margin-bottom: 120px;
 }
 
+.logos {
+  display: flex;
+  gap: 60px;
+  overflow: hidden;
+}
+
 .logos__slide {
   display: flex;
   justify-content: center;
   gap: 60px;
   align-items: center;
+  animation-name: logo-slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes logo-slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .alawar,
