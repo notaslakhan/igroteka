@@ -86,6 +86,7 @@ body{
 .search-games {
   padding: 10px;
   outline: none;
+  width: 20rem;
 }
 
 /* MAIN, SLIDER STYLES */ 
