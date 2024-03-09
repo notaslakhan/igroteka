@@ -25,6 +25,11 @@ body{
   /* background-color: rgb(170, 0, 0); */
   background-color: #fff;
   padding: 24px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .header__inner {
@@ -86,7 +91,7 @@ body{
 /* MAIN, SLIDER STYLES */ 
 
 .games-slider {
-  padding-top: 40px;
+  padding-top: 140px;
 }
 
 .games-slider__covers{
