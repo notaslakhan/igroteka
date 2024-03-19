@@ -42,10 +42,11 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #111;
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .menu__list {
+  font-size: 1rem;
   list-style: none;
   display: flex;
   gap: 0 50px;
