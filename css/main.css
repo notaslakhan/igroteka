@@ -86,7 +86,7 @@ body{
 /* MAIN, SLIDER STYLES */ 
 
 .games-slider {
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .games-slider__covers{
@@ -96,8 +96,7 @@ body{
 }
 
 .games-slider__img {
-  max-width: 950px;
-  border-radius: 30px;
+  max-width: 80%;
 }
 
 .games-slider__buttons {
