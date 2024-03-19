@@ -174,13 +174,15 @@ body{
 
 .game-cards {
   display: flex;
+  margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
 }
 
 .game-cards-section__inner {
   padding-top: 200px;
+  /* margin: 0 auto; */
 }
 
 .game-cards__h2 {
@@ -200,7 +202,7 @@ body{
 }
 
 .game-card {
-  max-width: 100%;
+  /* max-width: 400px; */
   margin: 0 auto;
   cursor: pointer;
   color: #fff;
@@ -210,9 +212,9 @@ body{
 .game-card__image {
   /* max-width: 380px;
   height: 340px; */
-  max-width: 100%;
-  object-fit: contain;
-  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  /* overflow: hidden; */
   /* object-fit: cover; */
   object-position: right;
 }
