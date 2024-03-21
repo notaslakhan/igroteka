@@ -248,6 +248,10 @@ body{
   cursor: pointer;
 }
 
+.game-card__cover {
+  width: 100%;
+}
+
 /* FOOTER styles */
 
 .footer {
