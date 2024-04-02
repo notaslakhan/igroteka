@@ -43,7 +43,8 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #111;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: clamp(20px, 3vw, 50px);
 }
 
 .menu__list {
