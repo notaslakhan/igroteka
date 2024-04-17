@@ -25,12 +25,12 @@ body{
 .header {
   /* background-color: rgb(170, 0, 0); */
   background-color: #fff;
-  padding: 1.5rem 1rem;
+  padding: 16px 30px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;  
-  z-index: 999;
+  z-index: 100;
 }
 
 .header__inner {
